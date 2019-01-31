@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <title>Барбершоп "Бородинский"</title>
 </head>
+
 <body>
+
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo">
@@ -22,8 +24,10 @@
       </ul>
     </nav>
   </header>
+
   <main class="container">
     <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
+
     <section class="features">
       <h2 class="visually-hidden">Преимущества</h2>
       <ul class="features-list">
@@ -41,6 +45,21 @@
         </li>
       </ul>
     </section>
+
+    <section class="news">
+      <h2>Новости</h2>
+      <ul class="news-list">
+        <li class="news-item">
+          <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+          <time datatime="2016-01-11">11 января</time>
+        </li>
+        <li class="news-item">
+          <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+          <time datatime="2016-01-18">18 января</time>
+        </li>
+      </ul>
+    </section>
+
   </main>
 </body>
 </html>
