@@ -15,7 +15,7 @@
         <li><a href="info.html">Информация</a></li>
         <li><a href="news.html">Новости</a></li>
         <li><a href="price.html">Прайс-лист</a></li>
-        <li><a href="catalog.html">Магазин</a></li>
+        <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
       <ul class="user-navigation">
@@ -23,6 +23,21 @@
       </ul>
     </nav>
   </header>
+
+  <main class="container">
+    <h1 class="page-title">Средства для ухода</h1>
+    <ul>
+      <li><a href="index.html"></a>Главная</li>
+      <li><a href="catalog.html"></a>Магазин</li>
+      <li class="breadcrumb-current">Средства для ухода</li>
+    </ul>
+
+<section class="filters">
+  <h2 class="vissualy-hidden">Фильтр товаров</h2>
+  <!-- Здесь будет форма -->
+</section>
+    
+  </main>
 
 </body>
 </html>
